@@ -1,0 +1,32 @@
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sp-btn-l {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #eaeaea;
+    border: 2px solid #0000;
+}
+.sp-btn-l:hover {
+    padding: 15px 20px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    transition-duration: 1s;
+    color: #ffffff;
+}
+.welcome-hero {
+    background-color: #eaeaea;
+}
+
+.contact-sec {
+    margin: 200px 0 100px 0;
+}
+.contact-sec form {
+    width: 100%;
+    height: 500px;
+    background-color: #eaeaea;
+}
+
