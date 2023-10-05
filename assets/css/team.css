@@ -1,0 +1,24 @@
+#Team  {
+    width: 100%;
+    height: auto;
+}
+
+#Team .team {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Team .perso {
+    height: 250px;
+    border: 2px solid #ddd;
+    padding: 10px 15px;
+}
+
+#Team .perso img {
+    margin-bottom: 20px;
+}
+#Team .perso h6 {
+    font-size: 15px;
+}
