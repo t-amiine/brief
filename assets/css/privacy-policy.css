@@ -55,3 +55,12 @@ a {text-decoration: none; color: #000;}
 .info-container-last p {
     margin-top: 5px;
 }
+
+
+@media screen and (max-width: 640px){
+	.privacy-hero span {
+        
+        margin-right: 40px 0 20px 0;
+    }
+
+}/*max-width:640px*/
