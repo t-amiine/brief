@@ -2,23 +2,29 @@
     width: 100%;
     height: auto;
 }
-
 #Team .team {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
-
 #Team .perso {
     height: 250px;
     border: 2px solid #ddd;
     padding: 10px 15px;
-}
-
-#Team .perso img {
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
-#Team .perso h6 {
-    font-size: 15px;
+#Team .perso img {margin-bottom: 20px;}
+#Team .perso h6 {font-size: 15px;}
+
+@media screen and (max-width: 740px) {
+    #Team .perso {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    }
+    
+
 }
