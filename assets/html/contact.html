@@ -14,7 +14,7 @@
     
     <!-- title of site -->
     <title>CarVilla</title>
-	<link rel="stylesheet" href="../css/mycss.css">
+	
     <!-- For favicon png -->
     <link rel="shortcut icon" type="image/icon" href="../logo/favicon.png"/>
    
@@ -45,6 +45,8 @@
     
     <!--responsive.css-->
     <link rel="stylesheet" href="../css/responsive.css">
+
+	<link rel="stylesheet" href="../css/mycss.css">
 </head>
 <body>
     
@@ -94,27 +96,37 @@
 
 				<form>
 					<div>
-						<input type="text" placeholder="Enter Yout Name">
-
-						<div>
-							<span>+ 212</span>
-							<input type="tel" minlength="10" maxlength="10" placeholder="06 00 00 00 00">
-						</div>
+						<input type="text" placeholder="Enter Yout Name" required name="name" maxlength="30">
 					</div>
 
 					<div>
-						<input type="email"placeholder="Enter Your Email">
+						<input type="email"placeholder="Enter Your Email" required name="email">
 					</div>
 
 					<div>
-						<textarea cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+						<input type="text" placeholder="Country Origin" required name="country" maxlength="20">
 					</div>
+
+					<div>
+						<textarea placeholder="Enter Your Message" required name="message" maxlength="300"></textarea>
+					</div>
+
+
+					<section class="last-sp-div d-flex">
+							<!-- <input type="checkbox" name="" id="check-terms-label" required> -->
+							<label for="check-terms-label">Sending a message mean that you agread to CarVilla<a href="privacy-policy.html">Privacy Policy</a></label> 
+					
+						<button type="submit">Send</button>
+					</section>
+
 					
 				</form>
 			</div>
 		</section>
 
             
+
+
 
 
 
@@ -144,7 +156,7 @@
 									<li><a href="#">about us</a></li>
 									<li><a href="#">career</a></li>
 									<li><a href="#">terms <span> of service</span></a></li>
-									<li><a href="#">privacy policy</a></li>
+									<li><a href="privacy-policy.html">privacy policy</a></li>
 								</ul>
 							</div>
 						</div>
