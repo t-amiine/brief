@@ -375,7 +375,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .new-cars{
     background: #f8f9fb;
-    padding:112px 0 120px;
+    padding:120px 0 0px;
+    margin-top: 80px;
 }
 .new-cars-content{padding-top:96px;}
 /*.new-cars-txt*/
